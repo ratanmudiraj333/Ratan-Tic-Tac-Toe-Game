@@ -46,13 +46,26 @@ body
     overflow-x: hidden;
  }
 }*/
+.Grid
+{
+    width: fit-content;
+    display:grid;
+    grid-template-columns: auto auto auto;
+   margin-left: 590px;
+    margin-top: 60px;
+gap: 20px;
+padding: 10px;
+    /*padding: 10px;
+    column-gap: -50px;
+        row-gap: 3px;
+            
+        */
+}
 
 
 .border1{
     position:relative;
     color: black;
-    left: 540px;
-    top: 100px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -66,8 +79,6 @@ body
 .border2{
     position:relative;
     color: black;
-    left: 540px;
-    top: 120px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -82,8 +93,6 @@ body
 .border3{
     position:relative;
     color: black;
-    left: 540px;
-    top: 140px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -98,8 +107,6 @@ body
 .border4{
     position:relative;
     color: black;
-    left: 665px;
-    top: -230px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -114,8 +121,6 @@ body
 .border5{
     position:relative;
     color: black;
-    left: 665px;
-    top: -210px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -130,8 +135,6 @@ body
 .border6{
     position:relative;
     color: black;
-    left: 665px;
-    top: -190px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -146,8 +149,6 @@ body
 .border7{
     position:relative;
     color: black;
-    left: 790px;
-    top: -560px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -162,8 +163,6 @@ body
 .border8{
     position:relative;
     color: black;
-    left: 790px;
-    top: -539px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -178,8 +177,6 @@ body
 .border9{
     position:relative;
     color: black;
-    left: 790px;
-    top: -520px;
     width: 100px;
     height:100px;
     /*border:solid;*/
@@ -193,12 +190,14 @@ body
 
 .bt1{
     width: 150px;
-    height: 50px;
+    height: 30px;
     border-radius: 10%;
-    position: relative;
-    left: 650px;
-    top: 30px;
+    position: absolute;
+    left: 720px;
+    top: 210px;
+    background-color: yellowgreen;
 }
+
 
 @media screen and (min-width: 1024px)
 {
@@ -235,4 +234,3 @@ body
     overflow-x: hidden;
  }
 }
-
